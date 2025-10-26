@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Почетна</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="js/javascript.js"></script>
+</head>
+
+<body>
+  <header class="header">
+
+    <div class="header-1">
+      <a href="index.html" class="logo">Words N'Pages </a>
+      <form action="" class="search-form">
+        <input type="search" name="" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="narachki.html" class="fas fa-shopping-cart"></a>
+        <a href="login.html" class="fas fa-user"></a>
+      </div>
+    </div>
+    </div>
+
+    <div class="header-2">
+
+      <nav class="navbar">
+        <a href="index.html"> Почетна </a></li>
+        <a href="za.nas.html"> За нас </a></li>
+        <a href="avtori.html"> Автори </a></li>
+        <a href="kontakt.html"> Контакт </a></li>
+        <div class="dropdown">
+          <button class="dropbtn">Книги <i fa fa-caret-down></i></button>
+          <div class="dropdown-content">
+            <a href="drami.html">Драми</a>
+            <a href="romansi.html">Романси</a>
+            <a href="istoriski.html">Историски</a>
+            <a href="trileri.html">Трилери</a>
+            <a href="misterii.html">Мистерии</a>
+            <a href="psihologija.html">Психологија</a>
+          </div>
+        </div>
+    </div>
+    </nav>
+    </div>
+
+  </header>
+
+  <main>
+    
+    <h1>Корисничка сметка</h1>
+
+    <div class="login">
+      <h2>Најави се!</h2>
+      <form action="/action_page.php" method="post">
+        <div class="imgcontainer">
+          <img src="images/img_avatar2.png" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+          <label for="uname"><b>Корисничко име или email адреса</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+
+          <label for="psw"><b>Лозинка</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <button type="submit">Најави се</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Запомни ме
+          </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">Назад</button>
+          <span class="psw">Ја заборавивте <a href="#">лозинката?</a></span>
+        </div>
+      </form>
+
+      <h2>Регистрирај се</h2>
+      <form action="/action_page.php" method="post">
+
+        <div class="container">
+          <label for="name"><b>Име</b></label>
+          <input type="text" placeholder="Enter Name" name="Name" required>
+
+          <label for="lname"><b>Презиме</b></label>
+          <input type="text" placeholder="Enter Last Name" name="lname" required>
+
+          <label for="email"> <b>Email адреса</b> </label>
+          <input type="email" placeholder="Enter Email" name="email" id="email">
+
+          <label for="psw"><b>Лозинка</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" id="psw">
+
+          <button type="submit">Регистрирај се</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Запомни ме
+          </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">Назад</button>
+        </div>
+      </form>
+
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="share">
+      <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+      <a href="https://twitter.com/?lang=en" class="fab fa-twitter"></a>
+      <a href="https://www.instagram.com/?hl=en" class="fab fa-instagram"></a>
+      <a href="https://www.pinterest.com/" class="fab fa-pinterest"></a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
